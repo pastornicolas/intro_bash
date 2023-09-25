@@ -4,7 +4,7 @@ Introducción al uso de la interfaz de línea de comando de sistemas GNU/Linux.
 ## Índice de contenidos
 1. ![La terminal, sistema de archivos, rutas relativas y absolutas.](01_laterminal.md)
 2. ![Moviéndome por el sistema. Creando, copiando y moviendo archivos](02_moviendome.md)
-3. Entrdas y salidas: concatenando comandos en "pipes".
+3. Entradas y salidas: concatenando comandos en "pipes".
 4. Variables y bucles "for".
 5. Bucles "while".
 6. Expresiones regulares.
