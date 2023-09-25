@@ -38,7 +38,7 @@ Existen dos formas de expresar una ruta en los sistemas GNU/Linux:
 - Las **rutas relativas** por su parte, nos muestran la ubicación de un archivo o directorio en sentido relativo al directorio de trabajo en curso. Generalmente, las mismas empiezan con uno o dos caracteres de punto ".", teniendo la expresión ```./``` el significado literal de "en este directorio", es decir, en el directorio actual; mientras que la expresión ```../``` indica el directorio padre en la jerarquía, del directorio actual.
 
 Como ejemplo, tomando como referencia la imagen del sistema jerárquico, tenemos:
-- ```/usr/bin/R``` indicaría la *ruta abosulta* al binario ejecutable de R instalado en el directorio ```/usr/bin```
+- ```/usr/bin/R``` indicaría la *ruta absoluta* al binario ejecutable de R instalado en el directorio ```/usr/bin```
 - Ahora bien, si el directorio de trabajo activo fuera este último, la *ruta relativa* expresada como ```../include```, indicaría el directorio bajo ```/usr/include```, así como la ruta ```../../var```, indicaría de forma relativa la ubicación del directorio ```/var```
 
 ### Para pensar un poquito
