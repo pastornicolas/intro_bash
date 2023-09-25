@@ -6,8 +6,8 @@ Introducción al uso de la interfaz de línea de comando de sistemas GNU/Linux.
 2. ![Moviéndome por el sistema. Creando, copiando y moviendo archivos](02_moviendome.md)
 3. Entrdas y salidas: concatenando comandos con "pipes".
 4. Variables y bucles "for".
-5. Expresiones regulares.
-6. Bucles "while".
+5. Bucles "while".
+6. Expresiones regulares.
 7. Condicionales.
 
 
