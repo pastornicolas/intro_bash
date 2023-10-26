@@ -14,14 +14,21 @@ La imagen a continuación muestra los canales estándares de información:
 
 ![inouterr](/pics/inouterr.png)
 
+![inouterr2](/pics/inouterr2.png)
+
 ## Concatenando comandos (pipes)
 
 En muchas situaciones nos será necesario ejecutar un comando dado, obtener su salida estándar y, sobre esta, ejecutar un segundo comando. Para estas situaciones, podremos hacer uso de operador "**|**" conocido como *pipe*, el cual toma la salida estandar de un programa y lo envía como entrada estandar a otro.
 
-Por ejemplo, tomando la estructura de carpetas y archivos creada previamente y estando ubicadon dentro de ```carpeta0``` podremos hacer: 
+Por ejemplo, tomando la estructura de carpetas y archivos creada previamente, si estamos ubicados dentro de ```carpeta0``` podremos hacer: 
 
 ```
 $ ls | grep "carpeta"
 ```
+
+La expresión precedente, ejecuta el comando ```ls``` en la ubicación ```carpeta0```, lo que nos dará una lista de las 2 carpetas y 2 archivos dentro de ella. Pero el *pipe* evitará que la misma se imprima en la pantalla y en cambio la pasará como entrada para el comando ```grep``` ([print lines that match patterns](https://man7.org/linux/man-pages/man1/grep.1.html)), por lo que el resultado que veremos en la pantalla será la salida estandar del segundo comando, que tomó como entrada la salida del primer comando.
+
+La utilización de *pipes* no se limita a dos expresiones y puede utilizarse todos las concatenaciones de comando requerida, siempre que las salidas de cada comando sean una entrada válida para el comando posterior.
+
 
 
