@@ -14,8 +14,6 @@ La imagen a continuación muestra los canales estándares de información:
 
 ![inouterr](/pics/inouterr.png)
 
-![inouterr2](/pics/inouterr2.png)
-
 ## Concatenando comandos (pipes)
 
 En muchas situaciones nos será necesario ejecutar un comando dado, obtener su salida estándar y, sobre esta, ejecutar un segundo comando. Para estas situaciones, podremos hacer uso de operador "**|**" conocido como *pipe*, el cual toma la salida estandar de un programa y lo envía como entrada estandar a otro.
