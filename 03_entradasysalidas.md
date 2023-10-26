@@ -30,3 +30,33 @@ La utilización de *pipes* no se limita a dos expresiones y puede utilizarse tod
 
 ## Redirecciones de entrada y salida 
 
+Además de poder concatenar comandos con el uso de los pipes, podemos estar interesados en **redirigir la salida y/o el error estándar hacia un archivo** en vez de que el mismo sea mostrado en la pantalla, así como también podríamos querer **pasar como entrada a un programa algo contenido en un archivo**.
+
+Para estos casos utilizaremos el operador "**>**", que puede tomar diferentes formas de acuerdo a la función que necesitemos.
+
+### Redirección de salida estándar a un archivo
+
+En su forma más sencilla, la redireccion de la salida estandar a un archivo puede realizarse de la siguiente forma:
+
+```$ echo "Enviar esta salida del comando 'echo' hacia un archivo" > archivo_receptor```
+
+El comando ```echo``` ([display a line of text](https://man7.org/linux/man-pages/man1/echo.1.html)) nos permitiría normalmente imprimir en la pantalla la expresión que le pasemos como argumento. Pero en este caso, al ejecutarlo no veremos salida alguna en la pantalla. Esto es porque la *stdout* está siendo redirigida hacia el archivo. Si quisieramos ver el contendio del mismo, podremos utilizar el comando ```cat``` ([concatenate files and print on the standard output](https://www.man7.org/linux/man-pages/man1/cat.1.html)), usando ```$ cat archivo_receptor```.
+
+Como se puede notar, al momento de redirigir la *stdout* a un archivo, el mismo se crea para alojar el flujo de información que esta recibiendo. Si el archivo existiera previamente, el mismo **sería sobreescrito con la información**, lo cual es importante recordar para no sobreescribir un archivo al redireccionar nueva informacaión utilizando el mismo nombre de archivo.
+
+Si quisieramos almacenar un archivo ya existente la *stdout* de una nueva ejecución de un comando, o de otro diferente, podremos hacer uso del operador "**>>**":
+
+```$ echo "Enviar una segunda salida y anexarla en el archivo ya existente" >> archivo_receptor```
+
+Si ahora realizamos ```$ cat archivo_receptor```, veremos que la nueva ejecución no sobreescribio el contenido, sino que se añadió una segunda línea con la segunda salida del comando ```echo```.
+
+### Redirección del error estándar
+
+
+
+
+
+
+
+
+
