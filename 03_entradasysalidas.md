@@ -28,5 +28,5 @@ La expresión precedente, ejecuta el comando ```ls``` en la ubicación ```carpet
 
 La utilización de *pipes* no se limita a dos expresiones y puede utilizarse todos las concatenaciones de comando requerida, siempre que las salidas de cada comando sean una entrada válida para el comando posterior.
 
-
+## Redirecciones de entrada y salida 
 
