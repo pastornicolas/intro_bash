@@ -42,7 +42,7 @@ En su forma más sencilla, la redireccion de la salida estandar a un archivo pue
 
 El comando ```echo``` ([display a line of text](https://man7.org/linux/man-pages/man1/echo.1.html)) nos permitiría normalmente imprimir en la pantalla la expresión que le pasemos como argumento. Pero en este caso, al ejecutarlo no veremos salida alguna en la pantalla. Esto es porque la *stdout* está siendo redirigida hacia el archivo. Si quisieramos ver el contendio del mismo, podremos utilizar el comando ```cat``` ([concatenate files and print on the standard output](https://www.man7.org/linux/man-pages/man1/cat.1.html)), usando ```$ cat archivo_receptor```.
 
-Como se puede notar, al momento de redirigir la *stdout* a un archivo, el mismo se crea para alojar el flujo de información que esta recibiendo. Si el archivo existiera previamente, el mismo **sería sobreescrito con la información**, lo cual es importante recordar para no sobreescribir un archivo al redireccionar nueva informacaión utilizando el mismo nombre de archivo.
+Como se puede notar, al momento de redirigir la *stdout* a un archivo el mismo se crea para alojar el flujo de información que está recibiendo. Si el archivo existiera previamente el mismo **sería sobreescrito con la información**, lo cual es importante recordar para no sobreescribir un archivo al redireccionar nueva informacaión utilizando el mismo nombre de archivo.
 
 Si quisieramos almacenar un archivo ya existente la *stdout* de una nueva ejecución de un comando, o de otro diferente, podremos hacer uso del operador "**>>**":
 
