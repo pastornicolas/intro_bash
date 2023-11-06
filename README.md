@@ -10,7 +10,7 @@ Introducción al uso de la interfaz de línea de comando de sistemas GNU/Linux.
 6. ![Expresiones regulares.](06_regex.md)
 
 ### Otros recursos de interés
-- **BareBonesBash**. Tutorial en inglés con buenas explicaciones y fácil de seguir. Posee versiones "basic" y "boosted" con presentaciones y explicaciones de texto. <a href="https://barebonesbash.github.io/" target="_blank" rel="noopener noreferrer">Ir a BareBonesBash</a>
+- **BareBonesBash**. Tutorial en inglés con buenas explicaciones, muchos ejemplos y fácil de seguir. Posee versiones "basic" y "boosted" con presentaciones y explicaciones de texto: [Ir a BareBonesBash](https://barebonesbash.github.io/)
 
 
 
