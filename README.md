@@ -6,9 +6,11 @@ Introducción al uso de la interfaz de línea de comando de sistemas GNU/Linux.
 2. ![Moviéndome por el sistema. Creando, copiando y moviendo archivos.](02_moviendome.md)
 3. ![Entradas y salidas: concatenando comandos en "pipes".](03_entradasysalidas.md)
 4. ![Variables y bucles "for".](04_variables_bucle_for.md)
-5. Bucles "while".
-6. Expresiones regulares.
-7. Condicionales.
+5. ![Condicionales y bucles "while".](05_condicionales_ifelse.md)
+6. ![Expresiones regulares.](06_regex.md)
+
+### Otros recursos de interés
+- **BareBonesBash**. Tutorial en inglés con buenas explicaciones y fácil de seguir. Posee versiones "basic" y "boosted" con presentaciones y explicaciones de texto. <a href="https://barebonesbash.github.io/" target="_blank">Ir a BareBonesBash</a>
 
 
 
